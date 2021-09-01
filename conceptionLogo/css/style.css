@@ -1,0 +1,158 @@
+:root {
+    --color: linear-gradient(to bottom, #6de050, #711fd6);
+    --h: #333;
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Times New Roman', Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
+    background: rgba(196, 183, 183, 0.3);
+}
+
+.titre {
+    padding: 10px;
+    text-align: center;
+}
+
+.titre h1 {
+    color: var(--h);
+}
+
+.btn {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    padding: 20px;
+    background: var(--color);
+    border-radius: 10px;
+
+}
+
+.detail {
+    padding: 10px;
+    text-align: justify;
+    background: var(--color);
+    color: #fff;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.detail h3 {
+    text-align: center;
+    color: var(--h);
+}
+
+.detail span {
+    color: #19172e;
+}
+
+.detail h2 {
+    text-align: center;
+}
+
+.reussir {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.programme {
+    text-align: justify;
+    -webkit-box-shadow: 0 0 7px var(--color);
+            box-shadow: 0 0 7px var(--color);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 7px;
+    background: #fff;
+}
+
+@media only screen and (max-width: 501px) {
+    .programme{
+        width: 95%;
+    }
+}
+
+.programme a {
+    display:block;
+    text-align: center;
+}
+
+.programme h1 {
+    background: var(--color);
+    padding: 20px;
+    color: var(--h);
+    text-align: center;
+    border-radius: 7px;
+}
+
+.card {
+    margin: 25px;
+    padding: 15px;
+    width: 200px;
+    height: auto;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px rgba(255, 255, 255, .3);
+            box-shadow: 10px 10px 5px rgba(255, 255, 255, .3);
+    background: var(--color);
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFF;
+}
+
+.contenus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    display: block;
+    text-align: center;
+}
+
+.contenus a {
+    text-decoration: none;
+    background: var(--h);
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 25px;
+    color: var(--color);
+    display: block;
+    width: 80%;
+}
+
+.contenus h2{
+    color: var(--h);
+}
+
+.alert-success {
+    display: block;
+    background: rgb(13, 126, 13);
+    -webkit-box-shadow: 0 10px 10px var(--color);
+            box-shadow: 0 10px 10px var(--color);
+    border-radius: 0 0 10px 10px;
+    margin: 0 20px;
+    text-align: center;
+    color: #FFF;
+}

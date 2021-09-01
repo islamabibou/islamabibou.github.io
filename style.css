@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(136, 134, 134);
+    color: aliceblue;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 15px 0;
+    padding: 20px 50px;
+    background: rgb(46, 44, 44);
+    cursor: pointer;
+    position: relative;
+}
+
+li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+}
+
+.list_item1::before {
+    background: blue;
+}
+
+.list_item2::before {
+    background: red;
+}
+
+.list_item3::before {
+    background: yellow;
+}
+
+.list_item4::before {
+    background: green;
+}
+
+.list_item1:hover {
+    background: blue;
+    transform: translateX(15px);
+    transition: .5s;
+}
+
+.list_item1:hover {
+    background: blue;
+    transform: translateX(15px);
+    transition: .5s;
+}
+
+.list_item2:hover {
+    background: red;
+    transform: translateX(15px);
+    transition: .5s;
+}
+
+.list_item3:hover {
+    background: yellow;
+    transform: translateX(15px);
+    transition: .5s;
+}
+
+.list_item4:hover {
+    background: green;
+    transform: translateX(15px);
+    transition: .5s;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab {
+    margin: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+    filter: drop-shadow(0 0 6px rgb(51, 51, 151));
+}
+
+
+
+.fab:hover:first-child {
+    box-shadow: 0 0 0 10px rgb(51, 51, 151);
+}
+
+.fab:first-child {
+    color: rgb(51, 51, 151);
+}
+
+.fab:nth-child(2):hover {
+    box-shadow: 0 0 0 10px rgb(151, 51, 134);
+}
+
+.fab:nth-child(2) {
+    color: rgb(151, 51, 134);
+}
+
+.fab:nth-child(3):hover {
+    box-shadow: 0 0 0 10px rgb(48, 155, 34);
+}
+
+.fab:nth-child(3) {
+    color: rgb(48, 155, 34);
+}
+
+.fab:nth-child(4):hover {
+    box-shadow: 0 0 0 10px rgb(79, 95, 163);
+}
+
+.fab:nth-child(4) {
+    color: rgb(79, 95, 163);
+}
+
+.icon-facebook {
+    filter: drop-shadow(0 0 10px rgb(51, 51, 151));
+}
+
+a {
+    text-decoration: none;
+}

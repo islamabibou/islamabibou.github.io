@@ -1,0 +1,20 @@
+{
+    "short_name": "CCX",
+    "name": "CCX prestation",
+    "start_url": "/index.html",
+    "background_color": "#fff",
+    "display": "standalone",
+    "theme_color": "#fff",
+    "icons": [
+      {
+        "src": "/img/pwa1.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/richard.png",
+        "type": "image/png",
+        "sizes": "459x320"
+      }
+    ]
+  }

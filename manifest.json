@@ -1,6 +1,6 @@
 {
-    "short_name": "CCX",
-    "name": "CCX prestation",
+    "short_name": "CCX Prestation Service",
+    "name": "Prèstation de services de CmaChanX",
     "start_url": "/index.html",
     "background_color": "#fff",
     "display": "standalone",

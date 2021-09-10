@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="ico.css">
     <link rel="manifest" href="/manifest.json">
     <script>
+        window.addEventListener('load', () => { 
         //if browser support service worker
         if('serviceWorker' in navigator) {
           navigator.serviceWorker.register('/sw.js');
-        };
+        }
+        });
       </script>
 </head>
 <body>
